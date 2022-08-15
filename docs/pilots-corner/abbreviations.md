@@ -18,8 +18,6 @@
 | ADRU   | Air Data Reference Unit                                                |
 | ADS    | Automatic Dependant Surveillance                                       |
 | AFDC   | Autopilot Flight <br/>Director Computer                                |
-|        |                                                                        |
-|        |                                                                        |
 | AFDS   | Autopilot Flight <br/>Director System                                  |
 | AFM    | Airplane Flight <br/>Manual (FAA <br/>approved)                        |
 | AGL    | Above Ground Level                                                     |
@@ -222,7 +220,6 @@
 | HDG SEL | Heading Select    |
 | HF      | High Frequency    |
 | HPA     | Hectopascals      |
-|         |                   |
 | HT      | Height            |
 | HUD     | Head Up Display   |
 | H/WIND  | Head Wind         |
@@ -494,7 +491,6 @@
 | VFSG   | Variable Frequency Starter Generator |
 | VHF    | Very High Frequency                  |
 | VMC    | Visual Meteorological Condition      |
-|        |                                      |
 | VMO    | Maximum Operating Speed              |
 | VNAV   | Vertical Navigation                  |
 | VOR    | VHF Omnidirectional Range            |
