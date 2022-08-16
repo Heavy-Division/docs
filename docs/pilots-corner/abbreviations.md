@@ -75,7 +75,7 @@
 
 # C
 
-| Symbol         | Meanin                                                  |
+| Symbol         | Meaning                                                  |
 |----------------|---------------------------------------------------------|
 | C              | Captain <br/>Celsius <br/>Center                        |
 | CAB            | Cabin                                                   |
