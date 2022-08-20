@@ -25,31 +25,16 @@
 
 -->
 
-!!! warning Issue: Toolbar Pushback Addon Issues
+!!! bug NAVRAD frequencies sometimes not entered automatically
 
-    !!! tip *Affected Versions: Stable, Development, Experimental*
+    !!! tip *Affected Versions: Development, Stable, Experimental*
 
-    - This 3rd party addon may cause the following issues:
-        - Stuck Aircraft
-        - Unable to taxi
-        - Performance Degradation
-
-    !!! Possible Solution or Workaround
-    - Remove the addon from your community folder or wait for developer to update or see next item.
-        - Keep the addon but remove it from the toolbar once you have pushed back
-
-
-!!! warning Issue: Screens are black or inop on initial load
-
-    !!! tip *Affected Versions: Stable, Development, Experimental*
-    
-    
-    B78XH screens are black or inop on initial load:
-
-    - Some 3rd party liveries or texture mods are breaking the state of our custom instruments. **Please do not install addons that modify the `panel.cfg` in the official Packages Directory**
+    When the user selects an approach on the DEP/ARR page, sometimes the ILS frequency is not automatically set
+        
+    - The cause of this is under investigation
 
     !!! Possible Solution or Workaround
-        - Remove the `panel.cfg` file from any 787-10 livery folder or texture mod.
+        - It is good practice to always check the approach frequencies are set prior to descent.
 
 
 !!! bug Radio Panels are inop on initial load
@@ -77,30 +62,44 @@
         - Whilst we work on finding a solution, if this occurs, restart the flight before continuing.
 
 
-!!! warning Bug: Center Fuel Pump Switches Cause APU Disconnect
+!!! warning Issue: Toolbar Pushback Addon Issues
+
+    !!! tip *Affected Versions: Stable, Development, Experimental*
+
+    - This 3rd party addon may cause the following issues:
+        - Stuck Aircraft
+        - Unable to taxi
+        - Performance Degradation
+
+    !!! Possible Solution or Workaround
+    - Remove the addon from your community folder or wait for developer to update or see next item.
+        - Keep the addon but remove it from the toolbar once you have pushed back
+
+
+!!! warning Issue: Screens are black or inop on initial load
+
+    !!! tip *Affected Versions: Stable, Development, Experimental*
+    
+    
+    B78XH screens are black or inop on initial load:
+
+    - Some 3rd party liveries or texture mods are breaking the state of our custom instruments. **Please do not install addons that modify the `panel.cfg` in the official Packages Directory**
+
+    !!! Possible Solution or Workaround
+        - Remove the `panel.cfg` file from any 787-10 livery folder or texture mod.
+
+
+!!! warning Issue: Center Fuel Pump Switches Cause APU Disconnect
 
     !!! tip ""
         *Affected Versions: Development, Stable, Experimental*
 
     Toggling the center fuel pump switches to ON causes APU shutoff
 
-    -  The root cause of this is under investigation.
+    -  The root cause of this is under investigation. It affects the default 787 as well.
 
     !!! Possible Solution or Workaround
         - Do not toggle center fuel pumps until both engines are running.
-
-
-
-!!! bug NAVRAD frequencies sometimes not entered automatically
-
-    !!! tip *Affected Versions: Development, Stable, Experimental*
-
-    When the user selects an approach on the DEP/ARR page, sometimes the ILS frequency is not automatically set
-        
-    - The cause of this is under investigation
-
-    !!! Possible Solution or Workaround
-        - It is good practice to always check the approach frequencies are set prior to descent.
 
 
 !!! warning Issue: 180th Meridian Visual Bug
