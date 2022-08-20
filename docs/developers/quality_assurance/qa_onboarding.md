@@ -3,8 +3,8 @@ As a Quality Assurance Tester, your role will be crucial in ensuring the
 stability and performance of the aircraft over the life of the simulator. 
 
 The QA role has two main responsibilities: 
-1. Testing user-reported errors 
-2. Testing pre-release builds 
+1. Testing user-reported errors (Issues Tab in Github)
+2. Testing pre-release builds (Pull Request Tab)
 
 If a significant number of users report a bug associated with the aircraft, it is up to the QA team 
 to reproduce the issue and document it as thoroughly as possible so our developers can focus on fixing it. 
@@ -25,23 +25,16 @@ As a tester you will have at minimum the following specs:<br>
 
 Please ensure your system meets these requirements before applying to the QA program. 
 
-## Maintaining QA role 
-In order to maintain your role on the QA team you will be required to conduct tests and submit 
-reports on a regular basis. In certain cases such as lulls in the development cycle or a personal circumstances,
-this requirement will be waived. Please reach out to an admin if you need to take leave from the QA team.
-
 ## Reports 
 To fill out a report, simply copy and paste the [template](#template) onto a comment in a developer Pull Request in the B78XH repository. Every developer Pull Request will include instructions for testing. Contact the author of the PR if you need additional information.
 
-## Workflow 
-As mentioned above, testing involves either mass reported features or pre-release builds. The former is carried out under the Issues tab in github whilst the latter takes place in the Pull Request github.
 
 ### Ready for Review
 When a developer is ready to have their PR reviewed, they will mark it as ready for review by changing it from a draft to a formal pull request.
 Each feature or change will require different testing methods, so it is important you read the developer's instructions for testing.
 
 ### Code Check
-Once a pull request is ready for review, it will require a code-check first, meaning that the PR follows styling and formatting guidelines and there are no glaring errors present. When signing up for the QA role please 
+Once a pull request is ready for review, it will require a code check first, meaning that the PR follows styling and formatting guidelines and there are no glaring errors present. When signing up for the QA role please 
 indicate if you are able and willing to perform code checks.
 
 ### QA Review
@@ -51,7 +44,7 @@ To do this, head to the Open Pull Request and navigate to the requester's forked
 
 #### QA Tiers for PRs
 
-The Heavy Division developers are required to categorize their PRs into two test tiers to indicate the complexity or importance of the PR.
+The developers are required to categorize their PRs into two test tiers to indicate the complexity or importance of the PR.
 
 More complex features or features vital for the stability of the add-on will need considerably more testing than a simple change of a button text.
 
@@ -69,11 +62,24 @@ Tier 2
     Tests without a full flight or media are not valid and will require another tester to still do a full tier 2 test
 After review, the QA team can sign off on the build as finished, request action from the PR author, or cancel the review if the author cancels the PR.
 
+#### Communication
+
+It is good practice if you are starting a test on a certain PR to announce it on the Discord "quality-assurance" channel.
+(Example: Starting test on PR #123 )
+
+Also reporting the PR# and test result after completing a report is common practice and helps others to see which PR have been tested and if there were issues.
+(Example: Tested PR #1234 : passed.)
+
 ## Overview
 The stages of testing should look like:
 Ready for Review -> Code Check -> QA Team Review & Report -> Action from author / Finalization / cancellation. 
 
 ![image](/docs/assets/qa_workflow.png)
+
+## Maintaining QA role 
+In order to maintain your role on the QA team you will be required to conduct tests and submit 
+reports on a regular basis. In certain cases such as lulls in the development cycle or a personal circumstances,
+this requirement will be waived. Please reach out to an admin or the QA Team Lead if you need to take leave.
 
 # Template 
 ```md
