@@ -1,0 +1,15 @@
+# Edit this page to get:
+# - Title for the whole directory
+# - Titles for specific pages or subdirectories
+# - Order of pages (otherwise alphabetical order)
+
+title: Heavy Division B78XH
+nav:
+    - Overview: index.md
+    - Common Questions: faq.md
+    - b78xh-versions.md
+    - installation.md
+    - settings.md
+    - liveries.md
+    - support
+    - Feature Guides: feature-guides
