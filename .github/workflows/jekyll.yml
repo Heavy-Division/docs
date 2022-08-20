@@ -9,9 +9,6 @@ on:
 jobs:
   build:
 
-kramdown:  
-  parse_block_html: true
-
     runs-on: ubuntu-latest
 
     steps:
