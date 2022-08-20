@@ -6,12 +6,11 @@ on:
   pull_request:
     branches: [ "main" ]
 
+jobs:
+  build:
 
 kramdown:  
   parse_block_html: true
-
-jobs:
-  build:
 
     runs-on: ubuntu-latest
 
