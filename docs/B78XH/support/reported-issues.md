@@ -59,7 +59,7 @@
     -  The root cause of this is under investigation.
 
     !!! Possible Solution or Workaround
-        - Whilst we work on finding a solution, if this occurs, restart the flight before continuing.
+        - Push forward on the yoke until the AT reconnects. 
 
 
 !!! warning Issue: Toolbar Pushback Addon Issues
