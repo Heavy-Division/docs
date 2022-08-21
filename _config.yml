@@ -11,3 +11,4 @@ github_username:  jekyll
 
 # Build settings
 markdown: GFM
+permalink: /:year/:title:output_ext
