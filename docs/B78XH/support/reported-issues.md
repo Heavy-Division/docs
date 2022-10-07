@@ -54,7 +54,7 @@
     !!! tip ""
          *Affected Versions: Development, Stable*
 
-    The Autothrottle stops automatic function, and only listens to user inputs
+    Occasionally the autothrottle will disconnect with no warning, and remain inop for the remainder of the flight.
 
     -  The root cause of this is under investigation.
 
