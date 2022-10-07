@@ -54,7 +54,7 @@
     !!! tip ""
          *Affected Versions: Development, Stable*
 
-    B78XH Radio Navigation Panels are black or inop on initial load.
+    The Autothrottle stops automatic function, and only listens to user inputs
 
     -  The root cause of this is under investigation.
 
