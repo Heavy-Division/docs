@@ -6,7 +6,7 @@ to files required to modify and enhance the default 787-10 Dreamliner. As of Sim
 it is now possible to make modifications to systems as well as the flight model. However, 
 textures and the 3D model remain encrypted. 
 
-We are underdoing developement of the B789H which will feature a in-house designed and modelled 
+We are pushing forward with development of the B789H, which will feature a in-house designed and modelled 
 interior, exterior, textures, and animations. For developers interested in Blender related 3D work,
 we recommend applying to work on the B789H project, where your skills will be of use. 
 
