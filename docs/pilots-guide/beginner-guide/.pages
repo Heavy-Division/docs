@@ -7,3 +7,11 @@ title: Beginner Guide
 nav:
     - Overview: overview.md
     - preflight.md
+    - startup.md
+    - preparing-fmc.md
+    - engine-start-taxi.md
+    - takeoff-climb-cruise.md
+    - descent.md
+    - landing.md
+    - after-landing.md
+    - powering-down.md

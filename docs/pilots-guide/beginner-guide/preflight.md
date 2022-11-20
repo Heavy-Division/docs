@@ -33,3 +33,18 @@ In addition to SimBrief we've added [Professional Flight Planner X](http://www.f
 To save time inputting your flight plan, we've incorporated a way to retrieve your simBrief flight plan and automatically enter it into the FMGC. 
 
 ![PUT GIF HERE]()
+
+## Manual Flight Planning 
+
+See the Route section [guide]() on manually inputting waypoints, departures, and SID/STAR procedures.
+
+## Flight Plan Discontinuities 
+
+Discontinuities such as (VECT) are normal and expected behaviors when importing flight plans. Read our page on [discontinuities]() to 
+better understand how to manage them. 
+
+## Payload management 
+
+The aircraft supports manual cargo and fuel weight, but no native tools for passenger boarding/deboarding at this time. 
+You may also change between metric and imperial units in the configuration settings menu. 
+
