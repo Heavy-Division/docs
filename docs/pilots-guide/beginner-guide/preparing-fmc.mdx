@@ -9,7 +9,7 @@
 
 ## Settings 
 Now that the aircraft has power, open the configuration menu by 
-selecting `HEAVY` on the FMC main page, and open the `SIMBRIEF CONFIGURATION` menu. 
+selecting `HEAVY` on the FMC main page, `CONFIGURATION` and open the `SIMBRIEF` menu. 
 
 From this menu you will need to input: 
 * Simbrief User ID 
@@ -23,15 +23,28 @@ same menu.
 
 The `IMPORT STRATEGY` should be set to `SB` if you are not using the native MSFS flight planner from the world menu.
 
+## IRS 
+Select the `INIT REF` then `INDEX`, and head to the `POS` page.  Copy the IRS GPS Position by selecting the `GPS POS` field, and pasting by selecting the `SET IRS POST` field.
+
+Alternatively, you can look up the charts for your current airport and parking gate, and enter the relevent info in the `REF AUROIRT`, `GATE`, and `SET HDG` fields.
 ## Route 
 Setting up the route is fairly easy thanks to integrated simBrief flight planning. 
-On the FMC main page select `RTE` then `ROUTE REQUEST` on the left. Select the `REQUEST FROM SB` option 
-if planning route from simBrief, otherwise select `REQUEST FROM PFPX`. 
+On the FMC main page select `RTE` then `ROUTE REQUEST` on the left. Select the `LOAD FROM SB` option 
+if planning route from simBrief, otherwise select `LOAD FROM PFPX`. 
 
 If you have trouble importing the route, please read our [support guide]() for troubleshooting route planning. 
 
 **You must activate the route before using LNAV**. To do this, head back to the `RTE` page, 
 select the `ACTIVATE` key on the bottom right, and confirm using the `EXEC` button once the green indicator lights up.
 
+## Performance 
+In the `INIT REF` menu then `INDEX`, then select the `PERF` option. Ensure that the ZFW and other fields match your flight plan.
+
+> Thrust LIM is optional. For more in depth info visit our [advanced]() guide on selecting thrust limitations. We will skip this page for the purposes of this guide.
+
 ## Takeoff configuration 
-Select the `INIT` key from the main menu, then select the `TAKEOFF` option. 
+Move onto the `TAKEOFF` page after `THRUST LIM`. Fill out the `FLAPS` field with a value of one of the following up to 20 degrees.
+
+![flaps](docs\assets\flaps.PNG)
+
+Then select each of the `V1`, `VR`, and `V2` speeds to automatically calculate. You will see a `FMC PREFLIGHT COMPLETE` message once you are finished. 
