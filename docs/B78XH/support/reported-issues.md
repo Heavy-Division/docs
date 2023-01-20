@@ -1,6 +1,6 @@
 # Reported Known Issues
 
-!!! error STOP - Read this first
+*STOP* - Read this first
  Please try and remove all other mods/liveries from the community folder and test our add-on again. This will help rule out conflicts.
 
     *Most reported issues are caused by conflicts with other mods and liveries. If this does not resolve your issue please continue below.*
