@@ -54,7 +54,7 @@
     !!! tip ""
          *Affected Versions: Development, Stable*
 
-    B78XH Radio Navigation Panels are black or inop on initial load.
+    - Autothrottle does not move independently and requires pilot input, even when in AT mode. 
 
     -  The root cause of this is under investigation.
 
@@ -87,20 +87,7 @@
 
     !!! Possible Solution or Workaround
         - Remove the `panel.cfg` file from any 787-10 livery folder or texture mod.
-
-
-!!! warning Issue: Center Fuel Pump Switches Cause APU Disconnect
-
-    !!! tip ""
-        *Affected Versions: Development, Stable, Experimental*
-
-    Toggling the center fuel pump switches to ON causes APU shutoff
-
-    -  The root cause of this is under investigation. It affects the default 787 as well.
-
-    !!! Possible Solution or Workaround
-        - Do not toggle center fuel pumps until both engines are running.
-
+        
 
 !!! warning Issue: 180th Meridian Visual Bug
 
